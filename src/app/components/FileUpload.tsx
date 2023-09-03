@@ -11,7 +11,7 @@ export default function FileUpload({ handleFileUpload }: Props) {
   };
 
   return (
-    <div id="upload-box" className="flex justify-center">
+    <div id="upload-box" className="flex justify-center align-middle">
       <p className="mr-2">Please choose upload file:</p>
       <input
         type="file"

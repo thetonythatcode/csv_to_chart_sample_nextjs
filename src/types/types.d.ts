@@ -3,3 +3,5 @@ type CSVRow = {
   Position: string;
   Value: number;
 };
+
+type CategorizedData = (string | number)[][];
